@@ -28,8 +28,10 @@
     overflow: hidden;
     position: relative;
   }
+  /*will probably just have to make the image blurred and add that*/
   .home-image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: blur(4px);
   }
