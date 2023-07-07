@@ -36,7 +36,7 @@
     object-fit: cover;
     filter: blur(4px);
   }
-  .home-page-main-text {
+  .home-main-text {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -47,9 +47,30 @@
     font-family: "Libre Baskerville", sans-serif;
     text-shadow: 1px 1px 6px white;
   }
-  .main-page-h2 {
+  .home-h2 {
     font-family: "Libre Baskerville";
     display: flex;
     justify-content: center;
     margin: 16px 0 16px 0;
+  }
+  .home-about-me {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 50vh;
+  }
+  .home-about-me-text {
+    display: flex;
+  }
+  .home-about-me-image {
+    width: 50%;
+  }
+  .home-about-me-image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+    /* height: 100%;
+    width: 100%; */
+    /* transform: scale(0.5); */
   }
