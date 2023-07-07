@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:wght@700&display=swap');
 
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: "Lato", sans-serif;
-  }
   .top-nav {
     background-color: white;
     overflow: hidden;
@@ -16,9 +11,9 @@
     width: 100%;
   }
   .top-nav a {
-    text-decoration: none;
-    color: black;
-    font-family: 'Libre Baskerville', sans-serif;
+    /*  */
+    /*  */
+    /*  */
     font-size: 22px;
     padding: 16px 24px 16px 24px;
   }
@@ -42,13 +37,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
+    /*  */
     font-size: 40px;
     font-family: "Libre Baskerville", sans-serif;
     text-shadow: 1px 1px 6px white;
   }
   .home-h2 {
-    font-family: "Libre Baskerville";
     display: flex;
     justify-content: center;
     margin: 16px 0 16px 0;
@@ -57,7 +51,7 @@
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    height: 50vh;
+    /* height: 50vh; */
   }
   .home-about-me-text {
     display: flex;
@@ -68,8 +62,9 @@
   .home-about-me-image img{
     display: block;
     width: 100%;
-    height: auto;
-    object-fit:cover;
+    max-height: 55%;
+    /* height: auto; */
+    object-fit: cover;
     /* height: 100%;
     width: 100%; */
     /* transform: scale(0.5); */
