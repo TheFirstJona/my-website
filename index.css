@@ -47,3 +47,9 @@
     font-family: "Libre Baskerville", sans-serif;
     text-shadow: 1px 1px 6px white;
   }
+  .main-page-h2 {
+    font-family: "Libre Baskerville";
+    display: flex;
+    justify-content: center;
+    margin: 16px 0 16px 0;
+  }
