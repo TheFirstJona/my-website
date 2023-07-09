@@ -5,13 +5,20 @@ body {
     padding: 0;
     font-family: "Lato", sans-serif;
     color: black;
-  }
+}
 
-a {
+a, .headers {
     text-decoration: none;
     color: black;
     font-family: 'Libre Baskerville', sans-serif;
 }
-h2 {
-    font-family: 'Libre Baskerville', sans-serif;
+
+.link-buttons {
+    border: 2px solid;
+    margin: 16px 0 16px 0;
+}
+/*will have to experiment with margins for the buttons*/
+.headers, .link-buttons-flex {
+    display: flex;
+    justify-content: center;
 }

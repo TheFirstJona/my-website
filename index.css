@@ -10,16 +10,26 @@
     position: absolute;
     width: 100%;
   }
-  .top-nav a {
+  .top-nav a, .headers, .link-buttons {
     /*  */
     /*  */
     /*  */
-    font-size: 22px;
+    font-size: 24px;
     padding: 16px 24px 16px 24px;
   }
+  .link-buttons {
+    font-size: 20px
+  }
+  /*Will have to experiment with potential font sizes for buttons*/
   .nav-links {
     display: flex;
   }
+  /*I think the above should go in master.css*/
+  /* .headers {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+  } */
+  /*The above one maybe?*/
   .home-image {
     overflow: hidden;
     position: relative;
@@ -42,27 +52,31 @@
     font-family: "Libre Baskerville", sans-serif;
     text-shadow: 1px 1px 6px white;
   }
-  .home-h2 {
-    display: flex;
-    justify-content: center;
-    margin: 16px 0 16px 0;
-  }
-  .home-about-me {
+  .home-about-me, .home-current {
     display: flex;
     justify-content: space-between;
+    height: auto;
     /* align-items: center; */
     /* height: 50vh; */
   }
   .home-about-me-text {
     display: flex;
+    font-size: 24px;
+    white-space: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    /*test the above to see if center or left is better */
   }
   .home-about-me-image {
     width: 50%;
+    height: auto;
+    flex: 0 0 auto;
   }
   .home-about-me-image img{
     display: block;
     width: 100%;
-    max-height: 55%;
+    max-height: 480px;
     /* height: auto; */
     object-fit: cover;
     /* height: 100%;
