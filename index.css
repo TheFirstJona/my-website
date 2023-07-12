@@ -98,6 +98,8 @@
   /*Max width on img and font-size on text have vw to adjust with screen size
   that's how you adjust text size and image size*/
   
+  /*7/11/2023: Finally got image and text to scale. Adjust vw(s) as needed. Tomorrow I should spend my alloted time
+  updating all of the text and padding so it scales based on screen size (vw).*/
 
 
   /* @media (min-width: 1500px){
