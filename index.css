@@ -54,28 +54,32 @@
   }
   .home-about-me, .home-current {
     display: flex;
+    flex-wrap: wrap; /*added this*/
     justify-content: center;
     height: auto;
-    padding: 0 160px;
+    padding: 0 15vw;
     /* align-items: center; */
     /* height: 50vh; */
   }
+  /*padding with vw changes padding based on screen size*/
   .home-about-me-text {
     display: flex;
-    font-size: 24px;
+    font-size: 1.75vw; /*changed this to vw*/
     white-space: auto;
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: center;
+    flex: 1 1 50%; /*added this*/
     /*test the above to see if center or left is better */
     width: 100%;
   }
   .home-about-me-image {
     width: 100%;
     height: auto;
-    flex: 1 1 auto;
+    flex: 1 1 50%; /*changed the percentage*/
     display: flex;
     align-items: flex-start;
+    max-width: 35vw; /*added this*/ /*then added vw*/
   }
   .home-about-me-image img{
     display: block;
@@ -91,9 +95,27 @@
     width: 100%; */
     /* transform: scale(0.5); */
   }
-  /*When inserting new about me image, must change home about me image. home about me image img, and home about me!*/
-  @media (min-width: 2000px){
-    .home-about-me-image img {
+  /*Max width on img and font-size on text have vw to adjust with screen size
+  that's how you adjust text size and image size*/
+  
+
+
+  /* @media (min-width: 1500px){
+    .home-about-me-image{
       flex: 2 2 auto
     }
+    .home-about-me-text{
+      font-size: 26px;
+    }
   }
+  @media (min-width: 1700px){
+    .home-about-me-text{
+      font-size: 28px
+    }
+  }
+  @media (min-width: 1900px){
+    .home-about-me-text{
+      font-size: 32px;
+    }
+  }
+     */
