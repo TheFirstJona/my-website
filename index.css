@@ -92,3 +92,8 @@
     /* transform: scale(0.5); */
   }
   /*When inserting new about me image, must change home about me image. home about me image img, and home about me!*/
+  @media (min-width: 2000px){
+    .home-about-me-image img {
+      max-height: 50%;
+    }
+  }
