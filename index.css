@@ -14,11 +14,8 @@
     /*  */
     /*  */
     /*  */
-    font-size: 24px;
-    padding: 16px 24px 16px 24px;
-  }
-  .link-buttons {
-    font-size: 20px
+    font-size: 2vw;
+    padding: 1.2vw 1.2vw 1.2vw 1.2vw;
   }
   /*Will have to experiment with potential font sizes for buttons*/
   .nav-links {
@@ -48,7 +45,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     /*  */
-    font-size: 48px;
+    font-size: 3vw;
     font-family: "Libre Baskerville", sans-serif;
     text-shadow: 1px 1px 6px white;
   }
@@ -57,12 +54,12 @@
     flex-wrap: wrap; /*added this*/
     justify-content: center;
     height: auto;
-    padding: 0 15vw;
+    padding: 0 12vw;
     /* align-items: center; */
     /* height: 50vh; */
   }
   /*padding with vw changes padding based on screen size*/
-  .home-about-me-text {
+  .home-about-me-text, .home-current-text {
     display: flex;
     font-size: 1.75vw; /*changed this to vw*/
     white-space: auto;
@@ -73,7 +70,7 @@
     /*test the above to see if center or left is better */
     width: 100%;
   }
-  .home-about-me-image {
+  .home-about-me-image, .home-current-image {
     width: 100%;
     height: auto;
     flex: 1 1 50%; /*changed the percentage*/
@@ -81,7 +78,7 @@
     align-items: flex-start;
     max-width: 35vw; /*added this*/ /*then added vw*/
   }
-  .home-about-me-image img{
+  .home-about-me-image img, .home-current-image img{
     display: block;
     width: 100%;
     height: auto;
@@ -94,6 +91,12 @@
     /* height: 100%;
     width: 100%; */
     /* transform: scale(0.5); */
+  }
+
+  .home-current-image img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: contain;
   }
   /*Max width on img and font-size on text have vw to adjust with screen size
   that's how you adjust text size and image size*/

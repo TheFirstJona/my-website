@@ -15,7 +15,7 @@ a, .headers {
 
 .link-buttons {
     border: 2px solid;
-    margin: 16px 0 16px 0;
+    margin: 1.2vw 0 1.2vw 0;
 }
 /*will have to experiment with margins for the buttons*/
 .headers, .link-buttons-flex {
