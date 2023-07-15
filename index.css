@@ -28,12 +28,25 @@
   .nav-links, .bottom-footer {
     display: flex;
   }
+
+  .headers {
+    /* margin: 8px 0; */
+  }
+
+  .section-break {
+    /* display: flex; */
+    /* justify-content: center; */
+    border: 2px solid black;
+    margin: 24px 12vw;
+  }
+
   /*I think the above should go in master.css*/
   /* .headers {
     border-top: 2px solid;
     border-bottom: 2px solid;
   } */
   /*The above one maybe?*/
+
   .home-image {
     overflow: hidden;
     position: relative;
@@ -45,6 +58,7 @@
     object-fit: cover;
     filter: blur(4px);
   }
+
   .home-main-text {
     text-align: center;
     position: absolute;
@@ -56,6 +70,7 @@
     font-family: "Libre Baskerville", sans-serif;
     text-shadow: 1px 1px 6px white;
   }
+
   .home-about-me, .home-current {
     display: flex;
     flex-wrap: wrap; /*added this*/
@@ -65,6 +80,7 @@
     /* align-items: center; */
     /* height: 50vh; */
   }
+
   /*padding with vw changes padding based on screen size*/
   .home-about-me-text, .home-current-text {
     display: flex;
@@ -77,6 +93,7 @@
     /*test the above to see if center or left is better */
     width: 100%;
   }
+
   .home-about-me-image, .home-current-image {
     width: 100%;
     height: auto;
@@ -85,6 +102,7 @@
     align-items: flex-start;
     max-width: 35vw; /*added this*/ /*then added vw*/
   }
+
   .home-about-me-image img, .home-current-image img{
     display: block;
     width: 100%;
@@ -106,15 +124,11 @@
     object-fit: contain;
   }
 
-  .section-break {
-    display: flex;
-    justify-content: center;
-    border: 2px solid black;
-    margin: 0 12vw;
-  }
+  
 
   footer {
     border-top: 2px solid black;
+    margin-top: 24px;
   }
 
   .bottom-footer {
