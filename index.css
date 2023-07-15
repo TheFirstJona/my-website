@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:wght@700&display=swap');
 
-  .top-nav {
+  .top-nav, .bottom-footer {
     background-color: white;
     overflow: hidden;
     display: flex;
@@ -17,8 +17,15 @@
     font-size: 2vw;
     padding: 1.2vw 1.2vw 1.2vw 1.2vw;
   }
+
+  /* .link-buttons {
+    max-width: 20vw;
+    max-height: 8vw;
+    text-align: center;
+  } */
+
   /*Will have to experiment with potential font sizes for buttons*/
-  .nav-links {
+  .nav-links, .bottom-footer {
     display: flex;
   }
   /*I think the above should go in master.css*/
@@ -95,9 +102,32 @@
 
   .home-current-image img {
     width: 30vw;
-    height: 30vw;
+    /* height: 30vw; */
     object-fit: contain;
   }
+
+  .section-break {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 0 12vw;
+  }
+
+  footer {
+    border-top: 2px solid black;
+  }
+
+  .bottom-footer {
+    justify-content: space-around;
+  }
+
+  .bottom-footer a {
+    padding: 1.2vw 1.2vw 1.2vw 1.2vw;
+    font-weight: 400;
+    font-family: "Lato";
+  }
+  
+  
   /*Max width on img and font-size on text have vw to adjust with screen size
   that's how you adjust text size and image size*/
   
