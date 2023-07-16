@@ -37,7 +37,7 @@ a, .headers {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
 }
 
