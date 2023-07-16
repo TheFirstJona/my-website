@@ -61,10 +61,6 @@
     max-width: 30vw; /*added this*/ /*then added vw*/
   }
 
-  .home-current-image {
-    /* justify-content: center; */
-  }
-
   .home-about-me-image img, .home-current-image img{
     display: block;
     width: 100%;
