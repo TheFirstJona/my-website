@@ -14,7 +14,7 @@ a, .headers, .about-me-page-header {
 }
 
 .headers, .about-me-page-header {
-    text-decoration: underline;
+    text-decoration: underline; /*get feedback on these underlines*/
 }
 
 .link-buttons {
