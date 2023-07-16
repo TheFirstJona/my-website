@@ -108,7 +108,7 @@
     flex: 1 1 50%; /*changed the percentage*/
     display: flex;
     /* align-items: flex-start; */
-    max-width: 35vw; /*added this*/ /*then added vw*/
+    max-width: 30vw; /*added this*/ /*then added vw*/
   }
 
   .home-current-image {
