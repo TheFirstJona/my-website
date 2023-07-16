@@ -15,7 +15,7 @@
     /*  */
     /*  */
     font-size: 1.6vw;
-    padding: 1.2vw 1.2vw 1.2vw 1.2vw;
+    padding: 1vw 1vw 1vw 1vw;
   }
 
   /* .link-buttons {
@@ -37,7 +37,7 @@
     /* display: flex; */
     /* justify-content: center; */
     border: 2px solid black;
-    margin: 1.2vw 12vw;
+    margin: 1vw 12vw;
   }
 
   .home {
@@ -138,7 +138,7 @@
 
   footer {
     border-top: 2px solid black;
-    margin-top: 1.2vw;
+    margin-top: 1vw;
   }
 
   .bottom-footer {
@@ -153,7 +153,7 @@
   }
 
   .bottom-footer-links a {
-    padding: 1.2vw 1.2vw 1.2vw 1.2vw;
+    padding: 1vw 1vw 1vw 1vw;
     font-weight: 400;
     font-family: "Lato";
     font-size: 1.2vw;
@@ -168,7 +168,7 @@
     margin: 0 1vw;
   }
   .copyright {
-    margin: 1.2vw 1.2vw 1.2vw 1.2vw;
+    margin: 1vw 1vw 1vw 1vw;
     font-size: .8vw;
   }
   
