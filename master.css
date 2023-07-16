@@ -7,10 +7,14 @@ body {
     color: black;
 }
 
-a, .headers {
+a, .headers, .about-me-page-header {
     text-decoration: none;
     color: black;
     font-family: 'Libre Baskerville', sans-serif;
+}
+
+.headers, .about-me-page-header {
+    text-decoration: underline;
 }
 
 .link-buttons {
@@ -59,3 +63,4 @@ a, .headers {
 
 /*End of Navbar CSS*/
 
+/*Start of Footer*/
