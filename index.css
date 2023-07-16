@@ -37,9 +37,12 @@
     /* display: flex; */
     /* justify-content: center; */
     border: 2px solid black;
-    margin: 24px 12vw;
+    margin: 1.2vw 12vw;
   }
 
+  .home {
+    display: flex;
+  }
   /*I think the above should go in master.css*/
   /* .headers {
     border-top: 2px solid;
@@ -92,6 +95,11 @@
     flex: 1 1 50%; /*added this*/
     /*test the above to see if center or left is better */
     width: 100%;
+    
+  }
+
+  .home-current-text {
+    margin-left: 1vw;
   }
 
   .home-about-me-image, .home-current-image {
@@ -99,8 +107,12 @@
     height: auto;
     flex: 1 1 50%; /*changed the percentage*/
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     max-width: 35vw; /*added this*/ /*then added vw*/
+  }
+
+  .home-current-image {
+    /* justify-content: center; */
   }
 
   .home-about-me-image img, .home-current-image img{
@@ -119,28 +131,46 @@
   }
 
   .home-current-image img {
-    width: 30vw;
+    width: 100%;
     /* height: 30vw; */
     object-fit: contain;
   }
 
-  
-
   footer {
     border-top: 2px solid black;
-    margin-top: 24px;
+    margin-top: 1.2vw;
   }
 
   .bottom-footer {
+    display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    /* padding: 0 12vw; */
   }
 
-  .bottom-footer a {
+  .bottom-footer-links {
+    display: flex;
+  }
+
+  .bottom-footer-links a {
     padding: 1.2vw 1.2vw 1.2vw 1.2vw;
     font-weight: 400;
     font-family: "Lato";
+    font-size: 1.2vw;
   }
   
+  .social-media-icons {
+    display: flex;
+    font-size: 1.7vw;
+  }
+
+  .social-media-icons a{
+    margin: 0 1vw;
+  }
+  .copyright {
+    margin: 1.2vw 1.2vw 1.2vw 1.2vw;
+    font-size: .8vw;
+  }
   
   /*Max width on img and font-size on text have vw to adjust with screen size
   that's how you adjust text size and image size*/
