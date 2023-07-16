@@ -87,7 +87,7 @@
   /*padding with vw changes padding based on screen size*/
   .home-about-me-text, .home-current-text {
     display: flex;
-    font-size: 1.75vw; /*changed this to vw*/
+    font-size: 1.5vw; /*changed this to vw*/
     white-space: auto;
     overflow: hidden;
     text-overflow: ellipsis;
