@@ -1,55 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:wght@700&display=swap');
 
-  .top-nav, .bottom-footer {
-    background-color: white;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-    position: absolute;
-    width: 100%;
-  }
-  .top-nav a, .headers, .link-buttons {
-    /*  */
-    /*  */
-    /*  */
-    font-size: 1.6vw;
-    padding: 1vw 1vw 1vw 1vw;
-  }
-
-  /* .link-buttons {
-    max-width: 20vw;
-    max-height: 8vw;
-    text-align: center;
-  } */
-
-  /*Will have to experiment with potential font sizes for buttons*/
-  .nav-links, .bottom-footer {
-    display: flex;
-  }
-
-  .headers {
-    /* margin: 8px 0; */
-  }
-
-  .section-break {
-    /* display: flex; */
-    /* justify-content: center; */
-    border: 2px solid black;
-    margin: 1vw 12vw;
-  }
-
-  .home {
-    display: flex;
-  }
-  /*I think the above should go in master.css*/
-  /* .headers {
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-  } */
-  /*The above one maybe?*/
-
   .home-image {
     overflow: hidden;
     position: relative;
@@ -87,7 +37,7 @@
   /*padding with vw changes padding based on screen size*/
   .home-about-me-text, .home-current-text {
     display: flex;
-    font-size: 1.5vw; /*changed this to vw*/
+    font-size: 1.5vw;
     white-space: auto;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -99,7 +49,7 @@
   }
 
   .home-current-text {
-    margin-left: 1vw;
+    margin-left: .2vw;
   }
 
   .home-about-me-image, .home-current-image {

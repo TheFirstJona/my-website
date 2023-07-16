@@ -22,3 +22,40 @@ a, .headers {
     display: flex;
     justify-content: center;
 }
+
+.section-break { /*solid line between sections*/
+    border: 2px solid black;
+    margin: 1vw 12vw;
+}
+
+/* Navbar CSS */
+
+.top-nav, .bottom-footer { /*affects nav and footer*/
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+}
+
+.top-nav a, .headers, .link-buttons { /*font size and padding for buttons, nav links, and headers*/
+    /*  */
+    /*  */
+    /*  */
+    font-size: 1.6vw;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+.nav-links, .bottom-footer {
+    display: flex;
+}
+
+.home { /*Jonathan text in nav*/
+    display: flex;
+}
+
+/*End of Navbar CSS*/
+
