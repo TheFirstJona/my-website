@@ -40,10 +40,8 @@
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: center;
-    flex: 1 1 50%; /*added this*/
-    /*test the above to see if center or left is better */
+    flex: 1 1 50%;
     width: 100%;
-    
   }
 
   .home-current-text {
@@ -53,17 +51,15 @@
   .home-about-me-image, .home-current-image {
     width: 100%;
     height: auto;
-    flex: 1 1 50%; /*changed the percentage*/
+    flex: 1 1 50%; 
     display: flex;
-    /* align-items: flex-start; */
-    max-width: 30vw; /*added this*/ /*then added vw*/
+    max-width: 30vw;
   }
 
   .home-about-me-image img, .home-current-image img{
     display: block;
     width: 100%;
     height: auto;
-    /* height: auto; */
     object-fit: cover;
     max-width: 100%;
     max-height: 100%;
