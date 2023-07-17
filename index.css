@@ -80,7 +80,7 @@
     object-fit: contain;
   }
 
-  footer {
+  /* footer {
     border-top: 2px solid black;
     margin-top: 1vw;
   }
@@ -89,7 +89,6 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    /* padding: 0 12vw; */
   }
 
   .bottom-footer-links {
@@ -115,7 +114,7 @@
     margin: 1vw 1vw 1vw 1vw;
     font-size: .8vw;
   }
-  
+   */
   /*Max width on img and font-size on text have vw to adjust with screen size
   that's how you adjust text size and image size*/
   

@@ -64,3 +64,41 @@ a, .headers, .about-me-page-header {
 /*End of Navbar CSS*/
 
 /*Start of Footer*/
+
+footer {
+    border-top: 2px solid black;
+    margin-top: 1vw;
+  }
+
+  .bottom-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* padding: 0 12vw; */
+  }
+
+  .bottom-footer-links {
+    display: flex;
+  }
+
+  .bottom-footer-links a {
+    padding: 1vw 1vw 1vw 1vw;
+    font-weight: 400;
+    font-family: "Lato";
+    font-size: 1.2vw;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    font-size: 1.7vw;
+  }
+
+  .social-media-icons a{
+    margin: 0 1vw;
+  }
+  .copyright {
+    margin: 1vw 1vw 1vw 1vw;
+    font-size: .8vw;
+  }
+  
+/*End of Footer*/
