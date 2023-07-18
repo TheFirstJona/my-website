@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:wght@700&display=swap');
+
+.experiences {
+    margin: 0 12vw;
+}
+
+.non-home-headers{
+    margin: 1vw 0;
+    
+}
+
+.section-headers {
+    display: flex;
+    justify-content: center;
+    font-family: "Libre Baskerville", sans-serif;
+    text-decoration: underline;
+}
+
+.section-text {
+    font-size: 1.5vw;
+}
+
+.section-image-top img{
+    width: 100%;
+    max-width: 100%;
+}

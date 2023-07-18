@@ -7,13 +7,13 @@ body {
     color: black;
 }
 
-a, .headers, .about-me-page-header {
+a, .headers, .non-home-headers {
     text-decoration: none;
     color: black;
     font-family: 'Libre Baskerville', sans-serif;
 }
 
-.headers, .about-me-page-header {
+.headers, .non-home-headers {
     text-decoration: underline; /*get feedback on these underlines*/
 }
 
@@ -22,9 +22,13 @@ a, .headers, .about-me-page-header {
     margin: 1.2vw 0 1.2vw 0;
 }
 /*will have to experiment with margins for the buttons*/
-.headers, .link-buttons-flex {
+.headers, .link-buttons-flex, .non-home-headers {
     display: flex;
     justify-content: center;
+}
+
+.non-home-headers {
+  font-size: 2.5vw;
 }
 
 .section-break { /*solid line between sections*/

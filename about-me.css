@@ -1,10 +1,6 @@
 .about-me {
     margin: 0vw 12vw;
 }
-.about-me-page-header {
-    display: flex;
-    justify-content: center;
-}
 
 .about-me-image img {
     max-width: 30vw;
