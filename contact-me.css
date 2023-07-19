@@ -30,7 +30,8 @@ form {
 } */
 
 .contact-me-labels {
-    font-family: "Libre Baskerville";
+    font-family: "Libre Baskerville", sans-serif;
+    margin-top: 2vw;
 }
 
 #name-field, #email-field {
@@ -38,8 +39,18 @@ form {
     border-bottom: 2px solid black;
 }
 
-#submit-button {
-    background-color: none;
+#name-field {
+    margin: 0 4vw 0vw 0;
+}
+
+/*the margins above adjusts the name and email input equally*/
+
+input[type=submit] {
+    background-color: white;
+    border: 2px solid black;
+    font-family: "Libre Baskerville", sans-serif;
+    padding: .5vw 1vw;
+    margin: 2vw 0;
 }
 
 #message-field {
