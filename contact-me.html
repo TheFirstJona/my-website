@@ -7,17 +7,17 @@
     <div w3-include-html="navbar.html"></div>
 
     <div class="contact-me">
-    <form>
+    <form class="kwes-form" action="https://kwesforms.com/api/foreign/forms/Ym4oU74wWDX3suITH2wt">
 
         <div class="top-row">
             <div class="label-text-alignment">
                 <label for="name-field" class="contact-me-labels">Name</label>    
-                <input type="text" id="name-field" name="name-field">
+                <input type="text" id="name-field" name="name-field" rules="required|max:255">
             </div>
 
             <div class="label-text-alignment">
                 <label for="email-field" class="contact-me-labels">Email</label>
-                <input type="email" id="email-field" name="email-field">
+                <input type="email" id="email-field" name="email-field" rules="required|email|max:255">
             </div>
             <!-- <label for="topic-field">Topic</label>
             <input type="text" id="topic-field" name="topic-field"> -->
@@ -30,9 +30,12 @@
                 </div>
         </div>
 
+        <input type="submit" id="submit-button" name="submit-button">
+        
     </form>
     </div>
 
     <div w3-include-html="footer.html"></div>
     <script src="get-html.js"></script>
+    <script src="https://kwesforms.com/v2/kwes-script.js" defer></script>
 </body>
