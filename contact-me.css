@@ -4,6 +4,7 @@
 
 form {
     border: 2px solid black;
+    margin: 0 16vw;
 }
 
 .label-text-alignment {
@@ -13,14 +14,18 @@ form {
 
 .top-row {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
 }
 
-.bottom-row {
+.kwes-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .bottom-row {
     display: flex;
     justify-content: center;
-}
+} */
 
 .contact-me-labels {
     justify-content: center;
