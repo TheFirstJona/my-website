@@ -1,0 +1,32 @@
+.contact-me {
+    margin: 0 12vw;
+}
+
+form {
+    border: 2px solid black;
+}
+
+.label-text-alignment {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-me-labels {
+    justify-content: center;
+}
+
+#message-field {
+    width: 24vw;
+    height: 16vw;
+}

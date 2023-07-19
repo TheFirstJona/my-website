@@ -6,6 +6,33 @@
 <body>
     <div w3-include-html="navbar.html"></div>
 
+    <div class="contact-me">
+    <form>
+
+        <div class="top-row">
+            <div class="label-text-alignment">
+                <label for="name-field" class="contact-me-labels">Name</label>    
+                <input type="text" id="name-field" name="name-field">
+            </div>
+
+            <div class="label-text-alignment">
+                <label for="email-field" class="contact-me-labels">Email</label>
+                <input type="email" id="email-field" name="email-field">
+            </div>
+            <!-- <label for="topic-field">Topic</label>
+            <input type="text" id="topic-field" name="topic-field"> -->
+        </div>
+
+        <div class="bottom-row">
+                <div class="label-text-alignment">
+                    <label for="message-field" class="contact-me-labels">Message</label>
+                    <textarea id="message-field" name="message-field"></textarea>
+                </div>
+        </div>
+
+    </form>
+    </div>
+
     <div w3-include-html="footer.html"></div>
     <script src="get-html.js"></script>
 </body>
