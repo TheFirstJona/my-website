@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:wght@700&display=swap');
+
 .contact-me {
     margin: 0 12vw;
 }
@@ -28,10 +30,20 @@ form {
 } */
 
 .contact-me-labels {
-    justify-content: center;
+    font-family: "Libre Baskerville";
+}
+
+#name-field, #email-field {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#submit-button {
+    background-color: none;
 }
 
 #message-field {
     width: 24vw;
     height: 16vw;
+    border: 2px solid black;
 }
