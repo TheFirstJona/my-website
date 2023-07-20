@@ -54,7 +54,9 @@ input[type=submit] {
 }
 
 #message-field {
-    width: 24vw;
+    width: 30vw;
+    max-width: 450px;
     height: 16vw;
+    max-height: 350px;
     border: 2px solid black;
 }
