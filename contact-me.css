@@ -29,6 +29,7 @@ form {
     align-items: center;
     width: 32vw;
     min-width: 700px;
+    margin: 80px 0;
 }
 /* .bottom-row {
     display: flex;
