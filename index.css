@@ -29,7 +29,7 @@
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
-    padding: 0 12vw;
+    /* padding: 0 12vw; */
   }
 
   /*padding with vw changes padding based on screen size*/
@@ -76,6 +76,9 @@
     object-fit: contain;
   }
 
+  .index {
+    margin: 0 12vw;
+  }
   /* footer {
     border-top: 2px solid black;
     margin-top: 1vw;

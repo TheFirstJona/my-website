@@ -33,7 +33,7 @@ a, .headers, .non-home-headers {
 
 .section-break { /*solid line between sections*/
     border: 2px solid black;
-    margin: 1vw 12vw;
+    margin: 1vw 0;
 }
 
 /* Navbar CSS */
