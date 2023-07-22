@@ -3,7 +3,8 @@
 
   // Check each link and add the 'active' class to the corresponding link
   const links = document.querySelectorAll('.nav-links a');
-  links.forEach(link => {
+  const finalLinks = "jonathantorrestomas.com/" + links;
+  finalLinks.forEach(link => {
     if (link.href === currentPage) {
       link.classList.add('active');
     }
