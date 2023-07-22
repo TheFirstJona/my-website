@@ -13,6 +13,21 @@ a, .headers, .non-home-headers {
     font-family: 'Libre Baskerville', sans-serif;
 }
 
+a:hover {
+  text-decoration: underline;
+  /* transition: right 0.3s ease 0 left 0.3s ease 0; */
+  /* transform-origin: center;
+  transition: width 0.3s ease 0s, left 0.3s ease 0; */
+}
+
+a.active {
+  text-decoration: underline;
+}
+
+.active {
+  text-decoration: underline;
+}
+
 .headers, .non-home-headers {
     text-decoration: underline; /*get feedback on these underlines*/
 }
