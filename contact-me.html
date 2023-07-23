@@ -7,34 +7,75 @@
 <body>
     <div w3-include-html="navbar.html"></div>
 
-    <div class="contact-me">
-    <form class="kwes-form" action="https://kwesforms.com/api/foreign/forms/Ym4oU74wWDX3suITH2wt">
-    <div class="form-container">
-        <div class="top-row">
-            <div class="label-text-alignment">
-                <label for="name-field" class="contact-me-labels">Name</label>    
-                <input type="text" id="name-field" name="name-field" rules="required|max:255">
-            </div>
+    <div class="contact-us">
+        <div class="content-container">
+            <!-- <div class="contact-us-headers">Contact Our Customer Support Team</div> -->
+        
+            <form class="kwes-form" action="https://kwesforms.com/api/foreign/forms/Ym4oU74wWDX3suITH2wt">
+        
+                <div class="form-container">
+                    <div class="top-row">
 
-            <div class="label-text-alignment">
-                <label for="email-field" class="contact-me-labels">Email</label>
-                <input type="email" id="email-field" name="email-field" rules="required|email|max:255">
-            </div>
-            <!-- <label for="topic-field">Topic</label>
-            <input type="text" id="topic-field" name="topic-field"> -->
+                        <div class="field-container">
+                            <label for="name-field" class="contact-us-labels">Name</label>
+                            <input type="text" id="name-field" name="name-field">
+                        </div>
+
+                        <div class="field-container">
+                            <label for="email-field" class="contact-us-labels">Email</label>
+                            <input type="text" id="email-field" name="email-field">
+                        </div>
+                   
+                    </div>
+
+                    <!-- <div class="middle-row">
+
+                        <div class="field-container">
+                            <label for="dropdown-field" class="contact-us-labels">How Can We Help?</label>
+                            <select type="dropdown-field" id="dropdown-field" name="dropdown-field">
+                                <option value="test" selected>Test</option>
+                                <option value="test" selected>Test</option>
+                                <option value="test" selected>Test</option>
+                            </select>
+                        </div>
+
+                        <div class="field-container">
+                            <label for="dropdown-field2" class="contact-us-labels">Product</label>
+                            <select type="dropdown-field" id="dropdown-field2" name="dropdown-field2">
+                                <option value="test" selected>Test</option>
+                                <option value="test" selected>Test</option>
+                                <option value="test" selected>Test</option>
+                            </select>
+                        </div>
+
+                    </div> -->
+
+                    <div class="bottom-row">
+
+                        <div class="field-container">
+                            <label for="message-field" class="contact-us-labels">Message</label>
+                            <textarea id="message-field" name="message-field"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="submit-flex">
+                        <input type="submit" class="submit-button">
+                    </div>
+
+                </div>
+            </form>
+
+            <!-- <div class="section-break"></div>
+
+            <div class="contact-us-headers">Connect With Us On Social Media!</div>
+            <div class="social-media-icons">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+            </div> -->
         </div>
 
-        <div class="bottom-row">
-            <div class="label-text-alignment">
-                <label for="message-field" class="contact-me-labels">Message</label>
-                <textarea id="message-field" name="message-field"></textarea>
-            </div>
-        </div>
-
-        </div>
-        <input type="submit" id="submit-button" name="submit-button">
-
-    </form>
     </div>
 
     <div w3-include-html="footer.html"></div>
