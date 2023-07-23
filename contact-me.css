@@ -141,7 +141,11 @@ label, input[type=submit] {
     font-size: 1.5vh;
 }
 
-.navbar .links,
+input[type=submit] {
+    margin-top: 4px;
+}
+
+/* .navbar .links,
   .navbar .action_btn {
     display: none;
   }
@@ -152,6 +156,6 @@ label, input[type=submit] {
 
   .navbar .toggle_btn {
     display: block;
-  }
+  } */
 
 }
