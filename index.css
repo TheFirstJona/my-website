@@ -93,6 +93,15 @@
     .home-about-me-image, .home-current-image {
       max-width: 100%;
     }
+
+    .home-about-me, .home-current{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .home-about-me-text, .home-current-text {
+      font-size: 1.5vh;
+    }
   }
 
 
