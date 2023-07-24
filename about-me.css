@@ -10,3 +10,16 @@
 .about-me-text {
     font-size: 1.5vw;
 }
+
+@media only screen and (max-width: 600px) {
+
+.about-me-image img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.about-me-text {
+    font-size: 1.5vh;
+}
+
+}
