@@ -89,6 +89,10 @@
       font-size: 3vh;
       top: 45%
     }
+
+    .home-about-me-image, .home-current-image {
+      max-width: 100%;
+    }
   }
 
 
