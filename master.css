@@ -109,6 +109,15 @@ a.active {
   .top-nav a, .hamburger-icon i {
     font-size: 1.6vh;
   }
+
+  .top-nav {
+    display: inline;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }
 
 /*End of Navbar CSS*/
