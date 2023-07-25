@@ -88,8 +88,10 @@ a.active {
   .nav-links a {display: none;}
 
   .top-nav a.hamburger-icon {
-    float: right;
+    /* float: right; */
     display: block;
+    position: absolute;
+    top: 0;
   }
 
   .top-nav.responsive {position: relative;}
