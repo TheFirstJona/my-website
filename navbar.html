@@ -1,20 +1,13 @@
-<div class="top-nav">
-    <div class="home"><a href="index.html">Jonathan</a></div>
+<div class="top-nav" id="my-top-nav">
+    <!-- <div class="active"></div> -->
+    <a href="index.html" class="active">Jonathan</a>
     <div class="nav-links">
       <a href="about-me.html">About Me</a>
       <a href="experiences.html">Experience & Projects</a>
       <a href="contact-me.html">Contact Me</a>
       <a href="#">Resume</a>
+      <a href="javascript:void(0);" class="hamburger-icon" onclick=myFunction()>
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
 </div>
-<script>  // Get the current page URL
-  const currentPage = window.location.href;
-
-  // Check each link and add the 'active' class to the corresponding link
-  const links = document.querySelectorAll('.nav-links a');
-  links.forEach(link => {
-    if (link.href === currentPage) {
-      link.classList.add('active');
-    }
-  });</script>
-<script src="current-page.js"></script>

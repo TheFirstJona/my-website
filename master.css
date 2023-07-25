@@ -80,6 +80,37 @@ a.active {
     display: flex;
 }
 
+.hamburger-icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-links a {display: none;}
+
+  .top-nav a.hamburger-icon {
+    float: right;
+    display: block;
+  }
+
+  .top-nav.responsive {position: relative;}
+
+  .top-nav.responsive a.hamburger-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .top-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .top-nav a, .hamburger-icon i {
+    font-size: 1.6vh;
+  }
+}
+
 /*End of Navbar CSS*/
 
 /*Start of Footer*/
