@@ -1,6 +1,6 @@
 function includeHTML() {
     var theHTMLs, i, elmnt, file, xhttp;
-    theHTMLs = document.getElementsByTagName("*"); /*star makes it loop through all html elements*/
+    theHTMLs = document.getElementsByTagName("*"); /*loop through all*/
     for (i = 0; i < theHTMLs.length; i++) {
       elmnt = theHTMLs[i];
       file = elmnt.getAttribute("w3-include-html"); /* searches for htmls with the w3*/
