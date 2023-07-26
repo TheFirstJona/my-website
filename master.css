@@ -109,7 +109,11 @@ a.active {
   }
 
   .top-nav a, .hamburger-icon i {
-    font-size: 1.6vh;
+    font-size: 3vh;
+  }
+
+  .hamburger-icon i {
+    display: flex;
   }
 
   .top-nav {
@@ -119,6 +123,10 @@ a.active {
   .nav-links {
     flex-direction: column;
     align-items: flex-end;
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 }
 
@@ -135,7 +143,6 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    /* padding: 0 12vw; */
   }
 
   .bottom-footer-links {
@@ -168,7 +175,7 @@ footer {
       padding: 1vh 1vh;
     }
 
-    .social-media-icons {
+    .social-media-icons a{
       font-size: 1.7vh;
     }
 
