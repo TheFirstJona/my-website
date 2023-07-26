@@ -105,22 +105,18 @@ input[type=submit] {
 form {
     display: flex;
     justify-content: center;
-    /* border: none; */
 }
 
 .top-row {
     flex-direction: column;
-    /* justify-content: center; */
 }
 
 .middle-row {
     flex-direction: column;
-    /* justify-content: center; */
 }
 
 .bottom-row {
-    flex-direction: column;
-    /* justify-content: center; */
+    flex-direction: column;  
 }
 
 #message-field, #name-field, #email-field {
@@ -140,18 +136,5 @@ label, input[type=submit] {
 input[type=submit] {
     margin-top: 4px;
 }
-
-/* .navbar .links,
-  .navbar .action_btn {
-    display: none;
-  }
-
-  .dropdown_menu {
-    display: flex;
-  }
-
-  .navbar .toggle_btn {
-    display: block;
-  } */
 
 }
