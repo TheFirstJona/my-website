@@ -97,9 +97,17 @@ a.active {
   .top-nav.responsive {position: relative;}
 
   .top-nav.responsive a.hamburger-icon {
-    position: absolute;
+    /* position: absolute;
     right: 0;
-    top: 0;
+    top: 0; */
+  }
+
+  .hamburger-icon {
+    /* display: none; */
+  }
+
+  .home-link a, .hamburger-icon i {
+    padding: 0 1vw;
   }
 
   .top-nav.responsive a {
@@ -112,8 +120,11 @@ a.active {
     font-size: 3vh;
   }
 
-  .hamburger-icon i {
-    display: flex;
+  .hamburger-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
   .top-nav {
