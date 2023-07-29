@@ -107,7 +107,8 @@ a.active {
   }
 
   .top-nav a {
-    padding: 0vh .2vh;
+    /* padding: 0vh .2vh; */
+    padding: 0;
   }
 
   .nav-links a{
@@ -115,7 +116,7 @@ a.active {
   }
 
   .home-link a, .hamburger-icon i {
-    padding: 0 1vw;
+    padding: 1vw 1vw;
   }
 
   .top-nav.responsive a {
