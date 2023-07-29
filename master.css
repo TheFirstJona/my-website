@@ -106,6 +106,14 @@ a.active {
     /* display: none; */
   }
 
+  .top-nav a {
+    padding: 0vh .2vh;
+  }
+
+  .nav-links a{
+    padding: 1vh .2vh;
+  }
+
   .home-link a, .hamburger-icon i {
     padding: 0 1vw;
   }
