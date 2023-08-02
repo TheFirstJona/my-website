@@ -1,172 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:wght@700&display=swap');
 
-body {
+  body {
     margin: 0;
     padding: 0;
     font-family: "Lato", sans-serif;
     color: black;
-}
+  }
 
-a, .headers, .non-home-headers {
+  a, .headers, .non-home-headers {
     text-decoration: none;
     color: black;
     font-family: 'Libre Baskerville', sans-serif;
-}
+  }
 
-a:hover {
-  text-decoration: underline;
-  /* transition: right 0.3s ease 0 left 0.3s ease 0; */
-  /* transform-origin: center;
-  transition: width 0.3s ease 0s, left 0.3s ease 0; */
-}
+  a:hover {
+    text-decoration: underline;
+  } 
 
-/* a.active {
-  text-decoration: underline;
-} */
-
-.active {
-  text-decoration: underline;
-}
-
-.headers, .non-home-headers {
+  .headers, .non-home-headers {
     text-decoration: underline; /*get feedback on these underlines*/
-}
+  }
 
-.link-buttons {
+  .link-buttons {
     border: 2px solid;
     margin: 1.2vw 0 1.2vw 0;
-}
-/*will have to experiment with margins for the buttons*/
-.headers, .link-buttons-flex, .non-home-headers {
+  }
+
+  .headers, .link-buttons-flex, .non-home-headers {
     display: flex;
     justify-content: center;
-}
+  }
 
-.non-home-headers {
-  font-size: 2.5vw;
-}
+  .non-home-headers {
+    font-size: 2.5vw;
+  }
 
-.section-break { /*solid line between sections*/
+  .section-break { /*solid line between sections*/
     border: 2px solid black;
     margin: 1vw 0;
-}
+  }
 
 /* Navbar CSS */
 
-.top-nav, .bottom-footer { /*affects nav and footer*/
+  .top-nav, .bottom-footer { /*affects nav and footer*/
     background-color: white;
     overflow: hidden;
-    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     z-index: 100;
     width: 100%;
-}
+  }
 
-.top-nav a, .headers, .link-buttons { /*font size and padding for buttons, nav links, and headers*/
+  .top-nav a, .headers, .link-buttons { /*font size and padding for buttons, nav links, and headers*/
     font-size: 1.6vw;
     padding: 1vw 1vw 1vw 1vw;
-}
-
-/* .nav-links, .bottom-footer {
-    display: flex;
-}
-
-.home { 
-    display: flex;
-}
-
-.hamburger-icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .nav-links a {display: none;}
-
-  .top-nav a.hamburger-icon {
-    display: block;
-    position: absolute;
-    top: 0;
   }
 
-  .top-nav.responsive {position: relative;}
+  .home-link {
+    float: left;
+    justify-content: flex-start;
+    text-align: center;
+  }
 
   .top-nav a {
-
-    padding: 0;
+    float: right;
   }
 
-  .nav-links a{
-    padding: 1vh .2vh;
+  .top-nav .hamburger-icon {
+    display: none;
   }
 
-  .home-link a, .hamburger-icon i {
-    padding: 1vw 1vw;
+  .other-links {
+    display: flex;
+    justify-content: flex-end;
   }
 
-  .top-nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
 
-  .top-nav a, .hamburger-icon i {
-    font-size: 3vh;
-  }
-
-  .hamburger-icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-
-  .top-nav {
-    display: inline;
-  }
-
-  .top-nav.responsive {
-    position: relative;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
-} */
-
-/* .other-links a {
-} */
-
-.home-link {
-  float: left;
-  justify-content: flex-start;
-  text-align: center;
-}
-
-.top-nav a {
-  float: right;
-}
-
-.top-nav a.active {
-  text-decoration: underline;
-}
-
-.top-nav .hamburger-icon {
-  display: none;
-}
-
-.other-links {
-  display: flex;
-  justify-content: flex-end;
-}
-
-
-@media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
 
   .hamburger-icon i {
     font-size: 3vh;
@@ -182,40 +92,39 @@ a:hover {
     font-size: 3vh;
   }
 
-.top-nav a:not(:first-child) {
-  display: none;
-}
+  .top-nav a:not(:first-child) {
+    display: none;
+  }
 
-.top-nav a.hamburger-icon {
-  float: right;
-  display: block;
-}
+  .top-nav a.hamburger-icon {
+    float: right;
+    display: block;
+  }
 
-.top-nav.responsive {
-  position: relative;
-}
+  .top-nav.responsive {
+    position: absolute;
+  }
 
-.top-nav.responsive a.hamburger-icon {
-  position: absolute;
-  display: inline-block;
-  right: 0;
-  top: 0;
-}
+  .top-nav.responsive a.hamburger-icon {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    top: 0;
+  }
 
-.top-nav.responsive a {
-  /* float: none; */
-  display: block;
-  text-align: left;
-  clear: both;
-}
+  .top-nav.responsive a {
+    display: block;
+    text-align: left;
+    clear: both;
+  }
 
-}
+  }
 
 /*End of Navbar CSS*/
 
 /*Start of Footer*/
 
-footer {
+  footer {
     border-top: 2px solid black;
     margin-top: 1vw;
   }
