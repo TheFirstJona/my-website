@@ -139,6 +139,9 @@ a:hover {
   }
 } */
 
+/* .other-links a {
+} */
+
 .home-link {
   float: left;
   justify-content: flex-start;
@@ -163,8 +166,22 @@ a:hover {
 }
 
 
-
 @media screen and (max-width: 600px) {
+
+  .hamburger-icon i {
+    font-size: 3vh;
+    padding: 1vh 1vh;
+  }
+
+  .home-link a {
+    font-size: 3vh;
+    padding: 1vh 1vh;
+  }
+
+  #about-me-link, #experiences-link, #contact-me-link, #resume-link {
+    font-size: 3vh;
+  }
+
 .top-nav a:not(:first-child) {
   display: none;
 }
