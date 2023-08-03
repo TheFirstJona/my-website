@@ -51,6 +51,10 @@
     width: 100%;
   }
 
+  .top-nav {
+    border-bottom: 2px solid black;
+  }
+
   .top-nav a, .headers, .link-buttons { /*font size and padding for buttons, nav links, and headers*/
     font-size: 1.6vw;
     padding: 1vw 1vw 1vw 1vw;
