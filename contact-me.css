@@ -93,6 +93,10 @@ input[type=submit], .submit-button {
     width: 100%;
 }
 
+.kw-alert-error {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
 
 form {
@@ -122,11 +126,11 @@ form {
     font-size: 2vh;
 }
 
-label, input[type=submit] {
+label, input[type=submit], .submit-button {
     font-size: 1.5vh;
 }
 
-input[type=submit] {
+input[type=submit], .submit-button {
     margin-top: 4px;
 }
 
