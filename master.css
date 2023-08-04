@@ -153,6 +153,7 @@
   .social-media-icons {
     display: flex;
     font-size: 1.7vw;
+    color: black;
   }
 
   .social-media-icons a{
