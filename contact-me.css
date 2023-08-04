@@ -84,6 +84,7 @@ input[type=submit], .submit-button {
     margin: 16px 0;
     margin-bottom: 24px;
     padding: 8px 16px;
+    color: black;
 }
 
 .section-break {
